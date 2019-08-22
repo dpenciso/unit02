@@ -1,0 +1,26 @@
+/* prevents adjustments of font size when orientatino changes */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/* apply a natural box layout model to all elements */
+* {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+
+
+// MAIN RULES
+h1 {
+  color: red;
+}
+
+
+
+
+
+
+
+
+/* clearfix: force an element not to collapse */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
