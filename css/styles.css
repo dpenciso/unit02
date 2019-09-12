@@ -315,10 +315,11 @@ html {
   box-sizing: border-box; }
 
 header {
-  padding: 1rem 2%; }
+  padding: 1rem 2%;
+  background-color: #2369b9; }
 
 header h1 {
-  color: red; }
+  color: white; }
 
 header img {
   float: left;
