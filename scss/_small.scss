@@ -17,19 +17,22 @@ header h1 {
   color: white;
 }
 
-header img {
-  float: left;
-  padding-right: 2%;
-}
-
 figure {
   float: left;
-  margin: 2%;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  box-sizing: content-box;
 }
 
 figure img {
-  width: 25%;
+  display: block;
+  float: left;
+  max-width: 25%;
+  height: auto;
   padding: 0;
+  margin: 0;
+
 }
 
 
