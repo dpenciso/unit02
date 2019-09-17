@@ -314,27 +314,96 @@ html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+body {
+  font-family: "Mukta", sans-serif; }
+
 header {
-  padding: 1rem 2%;
+  padding: 2rem 2%;
   background-color: #2369b9; }
+  header h1.companyName {
+    color: white;
+    font-weight: 700;
+    display: block; }
+  header h1.companySlogan {
+    color: white;
+    display: none;
+    font-weight: 400; }
+  header figure.logo {
+    float: left;
+    margin: 0% 4% 0 0;
+    padding: 0;
+    width: 25%; }
+    header figure.logo img {
+      display: block;
+      float: left;
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin: 0; }
 
-header h1 {
-  color: white; }
+nav {
+  background-color: #000;
+  margin: 0; }
+  nav ul {
+    margin: 0;
+    padding: 0; }
+  nav li {
+    list-style-type: none;
+    width: 50%;
+    display: block;
+    float: left; }
+  nav li.active {
+    background-color: #949090; }
+  nav a {
+    display: block;
+    padding: .8rem 0;
+    color: white;
+    text-align: center;
+    text-decoration: none; }
+  nav a:hover {
+    background-color: #333; }
 
-figure {
+figure.hero {
+  float: left;
+  margin: 0 0 2% 0;
+  padding: 0;
+  width: 100%; }
+  figure.hero img {
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0; }
+
+h1.text {
+  padding: 0;
+  margin: 2% 0 0 0;
+  text-align: center;
+  font-weight: 700; }
+
+figure.picture {
   float: left;
   margin: 0;
   padding: 0;
-  width: 25%;
-  box-sizing: content-box; }
+  width: 100%; }
+  figure.picture img {
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    margin: 0; }
 
-figure img {
-  display: block;
-  float: left;
-  max-width: 25%;
-  height: auto;
-  padding: 0;
-  margin: 0; }
+p {
+  font-weight: 400; }
+
+footer {
+  text-align: center;
+  padding: 1rem 2%;
+  background-color: #2369b9;
+  color: white;
+  font-weight: 400; }
 
 /* clearfix: force an element not to collapse */
 .clearfix:after {
@@ -343,10 +412,28 @@ figure img {
   clear: both; }
 
 @media only screen and (min-width: 30rem) {
-  h1 {
-    color: green; } }
+  header h1.companySlogan {
+    display: block; }
+  header figure.logo {
+    width: 18.5%; }
+
+  nav li {
+    width: 25%; }
+
+  figure.picture {
+    float: right;
+    width: 50%; } }
 /* end of media query */
 @media only screen and (min-width: 60rem) {
-  h1 {
-    color: orange; } }
+  header h1.companySlogan {
+    display: block; }
+  header figure.logo {
+    width: 10%; }
+
+  nav li {
+    width: 25%; }
+
+  figure.picture {
+    float: right;
+    width: 33%; } }
 /* end of media query */
