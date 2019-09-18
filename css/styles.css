@@ -425,13 +425,17 @@ footer {
     width: 50%; } }
 /* end of media query */
 @media only screen and (min-width: 60rem) {
+  body {
+    max-width: 75rem;
+    margin: auto; }
+
   header h1.companySlogan {
     display: block; }
   header figure.logo {
     width: 10%; }
 
   nav li {
-    width: 25%; }
+    width: 10%; }
 
   figure.picture {
     float: right;

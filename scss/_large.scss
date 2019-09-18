@@ -1,3 +1,8 @@
+body {
+  max-width: 75rem;
+  margin: auto;
+}
+
 header {
     h1.companySlogan {
     display: block;
@@ -9,7 +14,7 @@ header {
 
   nav {
     li {
-      width: 25%;
+      width: 10%;
     }
   }
 
